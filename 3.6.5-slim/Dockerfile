@@ -125,10 +125,5 @@ RUN set -ex; \
 		\) -exec rm -rf '{}' +; \
 	rm -f get-pip.py
 
-# add python3-dev
-RUN apk add python3-dev
-
-
-
 ENTRYPOINT    []
 CMD           ["python"]

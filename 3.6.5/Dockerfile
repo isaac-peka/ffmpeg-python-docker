@@ -125,4 +125,5 @@ RUN set -ex; \
 		\) -exec rm -rf '{}' +; \
 	rm -f get-pip.py
 
-ENTRYPOINT ["python"]
+ENTRYPOINT    []
+CMD           ["python"]
